@@ -4,7 +4,7 @@ Music Separation as a Service (MSaaS) is a Kubernetes-based microservice system 
 A REST API accepts MP3 uploads, tasks are queued using Redis, and worker pods run **Demucs** (Facebook AI Research) to separate audio into stems such as vocals, drums, bass, and others.  
 Outputs are stored in MinIO object storage and made available for download.
 
-![separation](images/music_separation.png)
+
 
 ---
 
@@ -61,9 +61,14 @@ This project demonstrates a cloud-native audio processing pipeline composed of:
 | Cloud | Local K8s & GKE |
 
 ---
+## System Architecture 
+![System Design](Architecture.jpg)
+
+---
 
 ## ⚙️ Development & Deployment
 
 ### Start Local Redis & MinIO
 ```bash
 ./deploy-local-dev.sh
+
