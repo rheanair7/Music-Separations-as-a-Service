@@ -8,7 +8,7 @@ Outputs are stored in MinIO object storage and made available for download.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project demonstrates a cloud-native audio processing pipeline composed of:
 
@@ -20,7 +20,7 @@ This project demonstrates a cloud-native audio processing pipeline composed of:
 
 ---
 
-## 🔧 Components
+## Components
 
 ### REST API
 - Accepts MP3 uploads  
@@ -48,7 +48,7 @@ This project demonstrates a cloud-native audio processing pipeline composed of:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Area | Technology |
 |------|------------|
@@ -65,10 +65,8 @@ This project demonstrates a cloud-native audio processing pipeline composed of:
 ![System Design](Architecture.jpg)
 
 ---
-
-## ⚙️ Development & Deployment
-
 ### Start Local Redis & MinIO
 ```bash
 ./deploy-local-dev.sh
+
 
